@@ -1,0 +1,61 @@
+
+.cardcontainermarginpadding{
+  margin-left: 30px !important;
+  padding-right: 70px;
+}
+.createleadformheading{
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 16px;
+  color: #444444;
+}
+.shadow {
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 15%) !important;
+}
+.inputlabel {
+  color: var(--bs-body-color);
+    font-size: .92857143em;
+    font-weight: 500;
+   font-family: inherit;
+}
+.inputfield {
+  font-size: 16px;
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: var(--bs-body-color);
+}
+.inputfield:focus{
+  border-bottom: 1px solid var(--bs-link-color);
+}
+.countrytypedropdown {
+  width: 100%;
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 47px;
+}
+
+.countrydropdown{
+width: 100%;
+}
+.countrydropdown > button{
+  color: #444444;
+  font-size: 13px;
+  font-weight: 500;
+}
+.countrydropdown > span{
+  color: #444444;
+  font-size: 13px;
+  font-weight: 500;
+}
+.leadbranddropdown{
+  width: 100%;
+}
+.leadbranddropdown > button{
+  color: #444444;
+  font-size: 13px;
+  font-weight: 500;
+}

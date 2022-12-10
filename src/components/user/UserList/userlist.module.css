@@ -1,0 +1,41 @@
+.dataWrapper {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.userCard {
+    flex:0.25;
+    margin: 0.5rem;
+    flex-basis: 20%;
+    overflow-x: hidden;
+}
+
+.userCard > div[class*="card-head"] {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.userCard > .pencil{
+    background-color: none !important;
+}
+.selectbrandoptioninusertable > button{
+    height: 38px;
+    border: 1px solid #cbc8d0;
+    border-radius: 0px;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #8e8e8e;
+    padding: 0.375rem 0.75rem;
+}
+.selectbrandoptioninusertable > button:hover{
+    height: 38px;
+    border: 1px solid #cbc8d0;
+    border-radius: 0px;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #8e8e8e;
+    padding: 0.375rem 0.75rem;
+}

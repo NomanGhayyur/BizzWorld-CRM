@@ -1,0 +1,8 @@
+input.inputBox {
+  text-align: center;
+  width: 195px;
+  /* text-align: right; */
+  position: absolute;
+  /* right: -10; */
+  margin-right: 27px !important;
+}

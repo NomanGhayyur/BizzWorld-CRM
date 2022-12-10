@@ -1,0 +1,10 @@
+.chart {
+  background-color: white;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+.heading {
+  height: 1px;
+}

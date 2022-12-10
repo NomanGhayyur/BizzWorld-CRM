@@ -1,0 +1,131 @@
+.sideNav__listContainer {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem;
+}
+.sideNav__listContainer > li:hover {
+  /* background: linear-gradient(to right bottom, #6416ec, #33e0e0); */
+  background: linear-gradient(to top, #ff9933 -90%, #298ECE 100%);
+  border-radius: 0 0.6rem 0.6rem;
+  cursor: pointer;
+}
+.sideNav__listContainer > li:hover > a {
+  color: #fff;
+}
+.roundedCircle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.sideNav__listContainer > li {
+  padding: 0.6rem 0.8rem;
+  margin: 0.2rem 0;
+}
+
+.sideNav__listContainer > li > a {
+  color: var(--bs-white);
+  width: 100%;
+  display: flex;
+  font-size: 0.875rem;
+}
+
+/* .sideNav__listContainer a {
+  color: var(--bs-body-color);
+} */
+
+.sideNav__itemIcon {
+  margin: 0 0.5rem;
+}
+
+.sideNav__active {
+  background: #298ECE;
+  border-radius: 0 0.6rem 0.6rem;
+}
+.sideNav__active > a {
+  color: #fff !important;
+}
+
+.sideNav__active:hover,
+.sideNav__active:hover * {
+  color: #fff;
+}
+
+.sideNav__nestedListContainer > li {
+  padding: 0.3rem 0.5rem;
+}
+.sideNav__listContainer > li:hover {
+  background: linear-gradient(to top, #ff9933 -90%, #298ECE 100%)  !important;
+}
+
+.sideNav__listContainer > li:nth-child(n) > div > button {
+  padding: 0rem 0rem 0rem 0rem;
+  background: transparent !important;
+  border: none !important;
+  font-size: 14px;
+  color: #fff;
+}
+.sideNav__listContainer > li:nth-child(n) > div > button:hover {
+  background: transparent;
+  border-radius: 0 0.6rem 0.6rem;
+}
+
+.sideNav__listContainer > li:nth-child(2),
+.sideNav__listContainer > li:nth-child(3),
+.sideNav__listContainer > li:nth-child(4),
+.sideNav__listContainer > li:nth-child(5) {
+  background: transparent;
+}
+
+.sideNav__listContainer
+  > li:nth-child(n)
+  > div
+  > div
+  > ul
+  > li:nth-child(n):hover {
+  background: rgb(29, 29, 29) !important;
+  border-radius: 0 0.6rem 0.6rem;
+}
+
+.sideNav__listContainer
+  > li:nth-child(n)
+  > div
+  > div
+  > ul
+  > li:nth-child(n)
+  > a
+  > svg {
+  margin-top: 3px;
+}
+.sideNav__listContainer > li:nth-child(1) > a > svg {
+  margin-top: 3px;
+}
+.sideNav__listContainer > li:last-child > a > svg {
+  margin-top: 3px;
+}
+.sideNav__itemIconn {
+  margin: 0 0.5rem;
+}
+.sideNav__itemIcone {
+  margin: 0 0.5rem;
+  right: 85%;
+}
+.profileStrip {
+  width: calc(100% - -56px);
+}
+.sideNav__collapsed {
+  width: 4rem !important;
+  transition: width 0.5s;
+  margin: '0px';
+  padding: '0px';
+  margin-left: -7px;
+}
+.sideNav__collapsed .userinfo {
+  display: none;
+  transition: width 0.5s;
+}
+.card_discription {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 1rem;
+  width: 100%;
+}

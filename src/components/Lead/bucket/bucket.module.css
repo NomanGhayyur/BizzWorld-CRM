@@ -1,0 +1,14 @@
+.abcdropdown > button {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.brandList__container {
+  padding: 1rem;
+  margin: 1rem;
+}

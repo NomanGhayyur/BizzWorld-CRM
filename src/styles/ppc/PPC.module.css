@@ -1,0 +1,166 @@
+.brandList__container {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.brandList__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.dataWrapper {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userCard {
+  flex: 0.25;
+  margin: 0.5rem;
+  flex-basis: 20%;
+  overflow-x: hidden;
+}
+
+.userCard > div[class*='card-head'] {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.brandheading {
+  font-weight: bold !important;
+}
+.createbrandheading {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 16px;
+  color: #444444;
+}
+.shadow {
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 15%) !important;
+}
+.coverbutton > button {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  color: #000;
+  border-color: rgba(0, 0, 0, 0.03);
+}
+.coverbutton > button:hover {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  color: #000;
+  border-color: rgba(0, 0, 0, 0.03);
+}
+
+.brandtableiconsswitchdiv {
+  font-size: 30px;
+  padding: 0;
+  margin-top: -8px;
+}
+.cardcontainermarginpadding {
+  margin-left: 30px !important;
+  padding-right: 70px;
+}
+.inputlabel {
+  color: var(--bs-body-color);
+  font-size: 0.92857143em;
+  font-weight: 700;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.inputfield {
+  font-size: 16px;
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: var(--bs-body-color);
+}
+.inputfield:focus {
+  border-bottom: 1px solid #5069e7;
+}
+.brandtypedropdown {
+  width: 100%;
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.brandtypedropdown > button {
+  font-size: 13px;
+  color: #444444 !important;
+  font-family: inherit;
+  margin-top: 20px;
+}
+
+.dropdown {
+  border: 1px solid #cbc8d0;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.dropdown button {
+  height: 42px;
+  color: #8e8e8e;
+}
+.dateinputfield {
+  border: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 13px;
+  font-family: inherit;
+  width: 75%;
+  padding-bottom: 15px;
+  margin-top: 37px;
+}
+.dateinputfield:focus {
+  outline: none !important;
+  border: none;
+}
+.abcdedgropdown > button {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.abcdedgropdown > button:hover {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.selectbrandoptioninusertable > button {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.selectbrandoptioninusertable > button:hover {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.brandList__container {
+  padding: 1rem;
+  margin: 1rem;
+}

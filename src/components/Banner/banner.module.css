@@ -1,0 +1,14 @@
+.banContent {
+  margin: auto;
+  justify-content: center;
+  color: white;
+}
+.incomebanner {
+  height: 145px;
+  /* background-color: #5069e7; */
+  /* background: linear-gradient(to right, #6416ec 0%, #33e0e0 100%); */
+  background: var(--bs-primary);
+}
+.heading {
+  color: white;
+}

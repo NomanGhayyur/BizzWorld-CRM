@@ -1,0 +1,19 @@
+.brandDropdown > button {
+  /* border: 1px solid #298ECE !important; */
+}
+.userlist {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  /* height: 100%; */
+}
+.avatar > img {
+  border: 1px solid #000;
+}
+.avatar:nth-child(2),
+.avatar:nth-child(3),
+.avatar:nth-child(4),
+.avatar:nth-child(5) {
+  margin-left: -7px;
+}

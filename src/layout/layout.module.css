@@ -1,0 +1,100 @@
+.main__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  background: white;
+  position: 'relative';
+}
+
+.main__sideNav {
+  display: flex;
+  flex-direction: column;
+  background: rgb(29, 29, 29);
+  /* background-color: var(--light); */
+  width: 16rem;
+  transition: width 0.5s;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.main__bodyContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: #fff;
+}
+
+.main__appName {
+  text-align: center;
+}
+
+.main__collapseBtn {
+  align-self: flex-end;
+  margin: 1rem;
+  background-color: var(--light);
+  outline: none;
+  border-width: 0;
+}
+
+.main__logoContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  margin-top: 1rem !important;
+  margin-left: 0.5rem !important;
+  margin-right: 1.3rem !important;
+}
+.sideNav__collapsed {
+  width: 5rem !important;
+}
+.sideNav__collapsed .main__logoContainer {
+  display: none;
+}
+
+.header__account {
+  position: relative;
+}
+
+.main__header {
+  max-height: 4rem;
+}
+
+.main__body {
+  height: calc(100vh - 1rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main__header > div {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__header > div > .header__left {
+  flex: 1;
+}
+
+.main__header > div > .header__right {
+  flex: 1;
+}
+.sideNav__collapsed .logo-large {
+  display: none;
+}
+.icon__logoContainer {
+  display: none;
+}
+.sideNav__collapsed .icon__logoContainer {
+  display: block;
+}
+.icon {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+/* .sideNav__collapsed .icon__logoContainer > Image {
+  minheight: 25px !important;
+} */

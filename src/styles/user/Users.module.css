@@ -1,0 +1,25 @@
+.userList__container {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.userList__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.userheading{
+    font-weight:bold !important;
+}
+.createuserheading{
+    margin-right:24px;
+    margin-left:32px;
+}
+
+.usertableiconsswitchdiv {
+    font-size:30px;
+    padding:0;
+    margin-top:-8px;
+}

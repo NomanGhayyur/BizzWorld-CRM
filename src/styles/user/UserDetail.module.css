@@ -1,0 +1,75 @@
+.userDetail__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.userDetail__cover {
+    height: 14rem;
+    position: relative;
+}
+
+.userDetail__container > h3 {
+    padding: 1rem;
+}
+
+.userDetail__headerDetail {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    width: 85%;
+}
+
+.userDetail__avatarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.userDetail__innerAvatarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.userDetail__userNameContainer {
+    margin-left:1rem;
+}
+
+.userDetail__userNameContainer > * {
+    margin-bottom: 0;
+}
+
+.userDetail__avatar {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 0.8rem;
+    font-size: 4rem;
+}
+
+.userDetail__genreBadge {
+    background-color: var(--bs-white);
+    color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+}
+
+.userDetail__userActions{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userDetail__userActions > button {
+    margin: 0.2rem;
+}
+
+.userDetail__genreContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}

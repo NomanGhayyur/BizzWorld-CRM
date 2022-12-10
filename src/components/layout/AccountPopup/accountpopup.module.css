@@ -1,0 +1,81 @@
+.container {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  left: 0.6%;
+  bottom: 10%;
+  width: 232px;
+  justify-content: space-around;
+  min-height: 10px !important;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: brightness(30%);
+  text-align: center;
+}
+
+.container > .logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  background: #298ECE;
+}
+
+.container > .logout > .app_icon {
+  font-size: 1rem;
+}
+
+.container > .logout span {
+  padding: 0;
+}
+
+.profileDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+
+.profileDetail * {
+  margin: 0.2rem 0;
+}
+
+.profileDetail > .container {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 4.5rem;
+  font-size: 1.8rem;
+}
+
+.profileDetail > p {
+  font-size: 0.875rem;
+  color: gray;
+}
+
+.accountNavList {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountNavList a,
+.accountNavList .btn {
+  padding: 0.4rem;
+  margin: 0.2rem 0;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  /* border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0; */
+  text-decoration: none;
+  box-shadow: none;
+  color: #ce092d;
+}
+
+.logout:hover {
+  background-color: #610718 !important;
+}

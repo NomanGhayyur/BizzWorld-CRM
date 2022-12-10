@@ -1,0 +1,177 @@
+.datepicker {
+  font-size: 30px !important;
+}
+
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+  background: #fff;
+  opacity: 1;
+}
+::marker {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 13px;
+  text-transform: capitalize !important;
+}
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+
+#__next {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.custom__card {
+  background-color: var(--bs-white);
+  color: var(--bs-dark);
+}
+
+.custom__cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.nav-link:not(.active) {
+  color: inherit !important;
+}
+
+.downloadicon > button {
+  color: #720b98 !important;
+  font-weight: bold;
+  padding: 0 !important;
+}
+.downloadicon > button:hover {
+  background-color: #720b98 !important;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 0 !important;
+}
+.arrowclock > button {
+  color: #0066b2 !important;
+  font-weight: bold;
+}
+.arrowclock > button:hover {
+  background-color: #0066b2;
+  color: #fff !important;
+}
+.pencil {
+  color: green !important;
+  padding: 0 !important;
+}
+
+.trash > button {
+  color: red !important;
+  padding: 0 !important;
+}
+.question {
+  color: #444444 !important;
+  padding: 0 !important;
+  background: none !important;
+  font-size: 15px;
+}
+.question:hover {
+  box-shadow: 5px;
+  padding: 0 !important;
+  box-shadow: 1px 1px 2px 0px;
+  border-radius: 3px;
+}
+.trash > button:hover {
+  background: red;
+  color: #fff !important;
+}
+.pencil > button:hover {
+  background: green;
+  color: #fff !important;
+}
+.pencil > button {
+  color: green;
+}
+.table .btn-danger {
+  background-color: var(--bs-danger);
+}
+
+.vr {
+  /* border-left: 1px solid #ebebeb; */
+  height: 50px;
+  margin: 10px;
+  background-color: gray;
+}
+
+.dashborad {
+  background-color: #fafafa;
+}
+
+tr {
+  vertical-align: middle;
+}
+tr:hover {
+  background: rgb(148, 23, 46, 0.1);
+}
+.modalInnerContainer_14zquw7 {
+  height: 680px !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e1e1e2;
+  border-radius: 5px;
+}
+h5 {
+  color: #444444;
+  font-size: 14px;
+  font-family: inherit;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  /* background-color: #5069e7;
+  color: #fff; */
+  border: 1px solid #298ECE;
+  color: #298ECE;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: inherit;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  font-size: 12px;
+  font-family: inherit;
+  color: #298ECE !important;
+  font-weight: 700;
+}
+
+#overflowTest {
+  padding-bottom: 150px;
+  height: 100vh;
+  overflow: scroll;
+}
+.rounded-circle {
+  top: 5% !important;
+}
+.row-highlight {
+  background-color: #ffc069;
+}

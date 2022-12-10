@@ -1,0 +1,55 @@
+.card_description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 1rem;
+  width: 90%;
+}
+.card_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.brandDropdownn > button {
+  border:none !important;
+}
+.statusdropdown > button{
+  background: none;
+}
+.statusdropdown > button:focus {
+  outline: none;
+  background: none;
+}
+.statusdropdown > button:active {
+  outline: none;
+}
+.statusdropdown > button:hover {
+  outline: none;
+  background: none;
+}
+.statusdropdown > button > svg{
+transform: translateX(-9px)translateY(-14px);
+height: 12px;
+color: #000;
+}
+.statusdropdown > button{
+width: 10%;
+height: 10px;
+transform: translateX(21px);
+}
+.statusdropdown > ul {
+  background: #fff;
+  width: 190px !important;
+  transform: translateX(-170px);
+  transition-delay: 1s;
+}
+.statusdropdown > ul > li {
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.statusdropdown {
+  /* position: absolute; */
+}

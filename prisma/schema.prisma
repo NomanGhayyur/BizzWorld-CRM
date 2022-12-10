@@ -1,0 +1,33 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model RoleRoutes {
+  link     String      @id @unique
+  title    String
+  iconName String
+  roles    String
+  menu     Boolean
+  groupId  String?
+  group    RouteGroup? @relation("GroupRoute", fields: [groupId], references: [id])
+}
+
+model RouteGroup {
+  id       String       @id @unique
+  iconName String
+  routes   RoleRoutes[] @relation("GroupRoute")
+  title    String
+  roles    String
+  parentId String?
+  menu     Boolean
+  parent   RouteGroup?  @relation("ParentChildren", fields: [parentId], references: [id])
+  children RouteGroup[] @relation("ParentChildren")
+}

@@ -1,0 +1,189 @@
+.brandList__container {
+  padding: 1rem;
+  margin: 1rem;
+}
+.addmorebtn {
+  margin-left: 10px;
+}
+.ordersinputfield {
+  font-size: 25px;
+}
+.addmorebtn {
+  margin-left: 280px !important;
+}
+.ordersforminputlabel {
+  font-size: 17px;
+}
+.userList__container {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.userList__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.dataWrapper {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userCard {
+  flex: 0.25;
+  margin: 0.5rem;
+  flex-basis: 20%;
+  overflow-x: hidden;
+}
+
+.userCard > div[class*='card-head'] {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orderheading {
+  font-weight: bold !important;
+}
+.createorderheading {
+  margin-right: 24px;
+  margin-left: 32px;
+}
+
+.odertableiconsswitchdiv {
+  font-size: 30px;
+  padding: 0;
+  margin-top: -8px;
+}
+/* .orderformcard {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+.cardcontainermarginpadding {
+  margin-left: 30px !important;
+  padding-right: 70px;
+}
+.createorderformheading {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 16px;
+  color: #444444;
+}
+.shadow {
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 15%) !important;
+}
+.mainlabel {
+  color: var(--bs-body-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.inputlabel {
+  color: #444444;
+  font-size: 15px;
+  font-family: inherit;
+}
+.inputfield {
+  font-size: 15px;
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: #444444;
+}
+.ordertypedropdown {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.ordertypedropdown > button {
+  color: #444444;
+  font-size: 13px;
+}
+.questiontypedropdown {
+  border-bottom: 1px solid #cbc8d0;
+  width: 100%;
+  margin-top: 32px;
+}
+.questiontypedropdown > button {
+  color: #444444;
+  font-size: 13px;
+}
+
+.inputfield:focus {
+  border-bottom: 1px solid var(--bs-link-color);
+}
+.inputlabeluploader {
+  color: var(--bs-body-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  padding-left: 5px;
+}
+.uploadbtnn > button {
+  background-color: 1 rgba(0, 0, 0, 0.03) !important;
+  color: #000;
+  border-color: rgba(0, 0, 0, 0.03);
+  margin-top: 10px;
+}
+.selectoptiondiv {
+  border-bottom: 1px solid rgb(203, 200, 208);
+}
+.selectoptiondiv > div > button {
+  color: #444444;
+  font-size: 13px;
+  font-family: inherit;
+}
+.trashicon {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.formtrashicon {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dateinputfield {
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 13px;
+  font-family: inherit;
+  width: 75%;
+  padding-bottom: 15px;
+  margin-top: 37px;
+}
+.dateinputfield:focus {
+  outline: none !important;
+  border-bottom: 1px solid var(--bs-link-color);
+}
+.orderstextfield:focus {
+  outline: none !important;
+}
+.abcdedgropdown > button {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}
+.abcdedgropdown > button:hover {
+  height: 38px;
+  border: 1px solid #cbc8d0;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #8e8e8e;
+  padding: 0.375rem 0.75rem;
+}

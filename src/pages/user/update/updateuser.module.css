@@ -1,0 +1,75 @@
+.cardcontainermarginpadding{
+  margin-left: 30px !important;
+  padding-right: 70px;
+  margin-bottom: 270px;
+}
+.createuserformheading{
+  font-weight: bold;
+  font-family: Nunito,sans-serif;
+  font-size: 16px;
+  color: #444444;
+  padding-left: 25px;
+}
+.shadow {
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 15%) !important;
+}
+.inputlabel {
+  color: var(--bs-body-color);
+    font-size: .92857143em;
+    font-weight: 700;
+   font-family: Nunito,sans-serif;
+}
+.inputfield {
+  font-size: 16px;
+  border-bottom: 1px solid #cbc8d0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: var(--bs-body-color);
+}
+.inputlabeluploader{
+color: var( --bs-body-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    padding-left: 5px;
+}
+.uploadbtnn > button{
+  background-color: rgba(0, 0, 0, 0.03) !important;
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.03);
+}
+.selectrolediv  {
+  border-bottom: 1px solid rgb(203, 200, 208);
+}
+.selectrolediv > div > button{
+  color: #444444;
+  font-size: 15px;
+  font-family: Nunito,sans-serif;
+}
+
+.brandautocomplete > label > div {
+  border: none;
+}
+.selectbranddiv > div >ul{
+overflow: scroll;
+width: 900px;
+}
+.selectbranddiv > div >ul >li{
+
+  }
+.userlistdropdown{
+width: 100%;
+}
+.inputlabeluploader{
+  color: var( --bs-body-color);
+      font-size: 16px;
+      font-weight: 400;
+      font-family: Nunito, sans-serif;
+      padding-left: 5px;
+  }
+  .uploadbtnn > button{
+    background-color: rgba(0, 0, 0, 0.03) !important;
+      color: #000;
+      border-color: rgba(0, 0, 0, 0.03);
+  }

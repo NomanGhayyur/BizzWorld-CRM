@@ -1,0 +1,14 @@
+.brandList__container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .dropdownn {
+    border: 1px solid #cbc8d0;
+    width:100%;
+    margin-top: 10px;
+  }
+  .dropdownn > button{
+    height: 37px;
+       color: #8E8E8E;
+       padding: 0.375rem 0.75rem;
+  }

@@ -1,0 +1,10 @@
+.inputlabel{
+  color: rgba(0,0,0,.87);
+  font-size: .92857143em;
+  font-weight: 700;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.inputfield{
+  font-size: 30px;
+  border-radius: 5px;
+}

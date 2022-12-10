@@ -1,0 +1,7 @@
+.dashboard{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.dashboard > div {
+    display: block !important;
+}

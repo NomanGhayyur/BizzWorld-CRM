@@ -1,0 +1,184 @@
+.cardcontainermarginpadding {
+  margin-left: 30px !important;
+  padding-right: 70px;
+}
+.ordertitleheading {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 16px;
+  color: #444444;
+}
+.shadow {
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 15%) !important;
+}
+
+.cardcontainermarginpadding {
+  margin-left: 30px !important;
+  padding-right: 70px;
+}
+.brandtitleheading {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 16px;
+  color: #444444;
+}
+.shadow {
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 15%) !important;
+}
+
+.brandDetail__cover {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: #000; */
+}
+
+.brandDetail__avatarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.brandDetail__avatarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.brandDetail__innerAvatarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: -80px;
+  margin-left: 14px;
+}
+
+.brandDetail__userNameContainer {
+  margin-left: 1rem;
+  padding-top: 80px;
+}
+
+.brandDetail__userNameContainer > * {
+  margin-bottom: 0;
+}
+
+.brandDetail__avatar {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0.8rem;
+  font-size: 4rem;
+}
+
+.brandDetail__avatar > img {
+  border: 10px solid #fff;
+}
+
+.brandDetail__genreBadge {
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+}
+.brandDetail__userNameContainer > h2 {
+  font-size: 20px;
+  color: #444444;
+}
+
+/* .brandDetail__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.brandDetail__cover {
+    height: 14rem;
+    position: relative;
+}
+
+.brandDetail__container > h3 {
+    padding: 1rem;
+}
+
+.brandDetail__headerDetail {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    width: 85%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+
+.brandDetail__avatarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.brandDetail__innerAvatarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.brandDetail__userNameContainer {
+    margin-left:1rem;
+}
+
+.brandDetail__userNameContainer > * {
+    margin-bottom: 0;
+}
+
+.brandDetail__avatar {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 0.8rem;
+    font-size: 4rem;
+}
+
+.brandDetail__avatar  > img {
+    border: 1px solid var(--bs-gray);
+}
+
+.brandDetail__genreBadge {
+    background-color: var(--bs-white);
+    color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+}
+
+.brandDetail__userActions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brandDetail__userActions > button {
+    margin: 0.2rem;
+}
+
+.brandDetail__genreContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+} */
+
+.branduserlists::marker {
+  font-size: 5rem !important;
+  font-weight: bolder !important;
+  background: red !important;
+}

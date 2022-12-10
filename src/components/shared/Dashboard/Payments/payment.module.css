@@ -1,0 +1,12 @@
+.tab {
+  /* margin-top: 1rem; */
+  margin: 1rem;
+}
+.tab > li > button {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin: 0px;
+}
+.tab > li {
+  text-align: center;
+}

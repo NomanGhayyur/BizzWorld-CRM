@@ -1,0 +1,21 @@
+.attachment_container{
+    position: relative;
+    width: 16rem;
+    padding: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.close {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(50%,-50%);
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+.tab {
+  /* margin: 1rem; */
+  margin-bottom: 0rem;
+  border-bottom: none !important;
+}
+.tab > li > button {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin: 0px;
+  font-size: 1rem !important;
+}
+.tab > li {
+  text-align: center;
+}
+.table > div > div > div > div > div > table > thead > tr > th {
+  background: rgb(80, 105, 231) !important;
+  color: white;
+  padding: 3px !important;
+  font-size: 13px !important;
+  border-radius: 0px !important;
+}
+
+.table > div > div > div > div > div > table > tbody > tr > td {
+  padding: 1px !important;
+}
+.brandList__container {
+  padding: 1rem;
+  margin: 1rem;
+}
+.dropdownn {
+  border: 1px solid #cbc8d0;
+  width:100%;
+}
+.dropdownn > button{
+  height: 37px;
+     color: #8E8E8E;
+     padding: 0.375rem 0.75rem;
+}
